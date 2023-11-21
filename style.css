@@ -64,6 +64,8 @@
 
 .hero-right > img{
     background: grey;
+    flex-grow: 1;
+    max-height:  50vh;
     
 }
 
@@ -79,5 +81,8 @@
 .hero-left button{
     background-color: #3882F6;
     color: white;
+    font-weight: bold;
     margin-top: 5px;
+    padding: 5px 15px;
+    border-radius: 7px;
 }
