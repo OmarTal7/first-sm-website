@@ -10,11 +10,19 @@
 .header{
     display:flex;
     justify-content: space-between;
+    align-items: center;
+    background: #1F2937;
+    color: white;
+}
+
+.header-logo{
+    font-weight: bolder;
 }
 
 .header-links{
     list-style: none;
     display:flex;
+    gap: 20px;
 }
 
 .hero-content{
