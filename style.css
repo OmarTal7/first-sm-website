@@ -1,0 +1,14 @@
+.db{
+    border: black solid 1px;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+}
+
+.header-links{
+    list-style: none;
+    display:flex;
+}
+
