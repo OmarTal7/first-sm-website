@@ -131,3 +131,19 @@
     padding: 0px;
     margin: 0px;
 }
+
+.content-quote{
+    background: #E5E7EB;
+    padding: 80px 180px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author{
+    font-weight: bold;
+    text-align: right;
+}
