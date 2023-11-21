@@ -19,6 +19,11 @@
     font-weight: bolder;
 }
 
+.header a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .header-links{
     list-style: none;
     display:flex;
