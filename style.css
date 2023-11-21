@@ -1,5 +1,5 @@
 .db{
-    border: black solid 1px;
+    /* border: black solid 1px; */
 }
 
 .container{
@@ -84,4 +84,50 @@
     margin-top: 5px;
     padding: 5px 15px;
     border-radius: 7px;
+}
+
+.content-infocards{
+    margin-bottom: 50px;
+}
+
+.content-infocards h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+.all-cards{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+
+
+}
+
+.card{
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+
+}
+
+.image-placeholder{
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+    height: 125px;
+    width: 125px;
+    margin-bottom: 8px;
+}
+
+.card p{
+    font-size: 14px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
 }
